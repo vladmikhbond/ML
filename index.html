@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Machine Lang</title>
+   <meta charset="UTF-8">
+</head>
+<body>
+   <h4>Machine Language</h4>
+   <link href="./index.css" rel="stylesheet">
+   <div id="memo" > </div>   
+   <div id="dash">
+      <table>
+         <tr>
+            <td title="Лічильник команд">C</td>
+            <td><input id="counter" class="register"/></td>
+         </tr>
+         <tr>
+            <td title="Суматор">Σ </td>
+            <td><input id="summator"  class="register"/></td>
+         </tr>
+         <tr>
+            <td></td>            
+            <td><button id="stepBtn">Step</button>
+               <button id="saveBtn">Save</button> 
+            </td>
+         </tr>
+      </table>
+      <pre>
+
+
+01 - зчитати з пам'яті
+02 - записати в пам'ять
+
+11 - додати до суматора
+12 - помножити на суматор
+
+20 - перейти
+21 - перейти, якщо Σ < 0
+22 - перейти, якщо Σ = 0
+23 - перейти, якщо Σ > 0
+      </pre>
+   </div>   
+
+   
+   <script src="./model.js"></script>
+   <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#memo {
+  padding: 10px;
+  float: left; 
+  width: 160px;
+}
+
+#dash {
+  float: left; 
+  width: 200px;
+}
+
+input[type=text] {
+  margin: 1px;
+  width: 70px;
+  text-align: right;
+}
+
+.register {
+  width: 100px;
+  text-align: right;
+}
+
+label {
+  font-size: small;
+}
+
+h4 {
+  color: red;
+}
